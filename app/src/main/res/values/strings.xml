@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">1 -Create Project</string>
+    <string name="hello_world_kien_nguyen">Hello World! Kien Nguyen</string>
+    <string name="hello_world">Hello World</string>
 </resources>
