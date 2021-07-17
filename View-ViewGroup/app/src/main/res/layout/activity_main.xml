@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_weight="1"
+        android:background="#7C7F80"
+        android:textSize="30sp"
+        android:textColor="#BF17DC"
+        android:text="Kien Nguyen !"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+
+        android:layout_weight="1"
+        android:background="#E91E63"
+        android:textSize="30sp"
+        android:textColor="#ff0"
+        android:text="Java"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_weight="1"
+        android:background="#00FF04"
+        android:textSize="30sp"
+        android:textColor="#030908"
+        android:text="PHP"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_weight="1"
+        android:background="#13A6E8"
+        android:textSize="30sp"
+        android:textColor="#FF5722"
+        android:text="NodeJS"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
