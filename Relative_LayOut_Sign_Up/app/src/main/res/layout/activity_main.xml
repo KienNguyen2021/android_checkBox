@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sign_up"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Form"
+
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#19536E"
+        />
+
+
+    <LinearLayout
+
+        android:layout_below="@id/sign_up"
+
+        android:id="@+id/first_linear"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+
+          android:layout_marginLeft="10dp"
+
+            android:layout_weight="2"/>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:padding="10dp"
+            android:layout_weight="3"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3"/>/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_below="@id/first_linear"
+
+        android:id="@+id/second_linear"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Company"
+
+            android:textStyle="bold"
+
+            android:layout_weight="1"/>
+
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:layout_weight="3"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_below="@id/second_linear"
+
+        android:id="@+id/third_linear"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+
+            android:layout_weight="2"/>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=" Area code"
+            android:padding="10dp"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="3"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+
+            android:layout_marginRight="10dp"
+            android:layout_weight="3"/>/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_below="@id/third_linear"
+
+        android:id="@+id/last_testview"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Are you existing customer ? "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_below="@id/last_testview"
+
+        android:id="@+id/last_linear"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioGroup
+
+            android:orientation="horizontal"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="10dp">
+
+            </RadioButton>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="No" >
+
+            </RadioButton>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+<Button
+
+    android:layout_below="@id/last_linear"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="REGISTER"
+
+    android:layout_marginTop="20dp"
+
+    android:layout_centerHorizontal="true" >
+
+</Button>
+
+
+</RelativeLayout>
