@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+
+        android:id="@+id/table"
+        android:collapseColumns="1,2"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:padding="10dp"
+        android:background="#f1f1f1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="Name"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="Email"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="Address"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:text="Tom"
+                />
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="tom@hotmail.com"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="241 Broad st"
+                />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:text="Bob"
+                />
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="bob@gmail.com"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="241 Albert st"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:text="Jack"
+                />
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="jack@gmail.com"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="241 Rae st"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:text="Jane"
+                />
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="jane@yahoo.com"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="241 Cameroon st"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:text="Dean"
+                />
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="dean@hotmail.com"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="241 Queen st"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:text="Merry"
+                />
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="merry@hotmail.com"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="241 Park st"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:text="Austin"
+                />
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="austin@gmail.com"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="241 Montague st"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:text="Alex"
+                />
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="alex@hotmail.com"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+
+                android:text="241 Rose st"
+                />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <Button
+
+        android:id="@+id/switchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show details"
+
+        android:textAllCaps="false"
+
+        android:layout_gravity="center"
+
+        android:onClick="collapseTable" />
+
+</LinearLayout>

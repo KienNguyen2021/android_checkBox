@@ -4,8 +4,6 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,17 +11,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<String> arrayName = new ArrayList<>();
+        thongBao("Mai",20);
+        thongBao("Hoa",30);
+        thongBao("Tam",40);
 
-        arrayName.add ("Toronto");
-        arrayName.add ("Vancouver");
-        arrayName.add ("Montreal");
-        arrayName.add("Calgary");
-        arrayName.add("Edmonton");
-
-        for ( int i = 0; i < arrayName.size(); i++){
-
-            System.out.println(arrayName.get(i));
         }
-    }
+
+        private void thongBao(String ten, int tuoi){
+
+        System.out.println(" Xin Chao:" + ten + "-" + "tuoi : " + tuoi);
+        }
 }
