@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/white"
+        android:layout_margin="30dp">
+
+        <!-- Table Heading-->
+
+        <TableRow
+            android:background="#03A9F4">
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col1"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col2"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col3"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+        </TableRow>
+
+        <!--Table data-->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1Name"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1Class"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1Year"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2Name"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2Class"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2Year"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3Name"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3Class"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3Year"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4Name"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4Class"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4Year"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+
+        </TableRow>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" Student checkList "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+           />
+
+
+    </TableLayout>
+
+
+
+
+</RelativeLayout>
