@@ -18,14 +18,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtNoiDung = (TextView) findViewById(R.id.textViewNoiDung);
 
-        btnClick = (Button)findViewById(R.id.buttonClick);
+        txtNoiDung = (TextView) findViewById(R.id.textView);
+        btnClick = (Button) findViewById(R.id.buttonClick);
 
-        btnClick.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                txtNoiDung.setText("Android Development");
+        txtNoiDung.setText("textview");
+
+        btnClick.setOnClickListener(new View.OnClickListener(){
+            @Override
+
+            public void onClick(View view){
+                txtNoiDung.setText(" Lap trinh Android");
             }
-        });
+        }) ;
+
     }
 }
