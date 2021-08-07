@@ -12,12 +12,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="131dp"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="138dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="136dp"
         android:ems="10"
-        android:hint="Enter first number"
-        android:inputType="number"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
         android:textAlignment="center" />
 
     <EditText
@@ -27,12 +27,12 @@
         android:layout_below="@+id/editTextNumberOne"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="134dp"
-        android:layout_marginTop="106dp"
-        android:layout_marginEnd="135dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="139dp"
         android:ems="10"
-        android:hint="Enter the second Number"
-        android:inputType="number"
+        android:hint="Enter your password"
+        android:inputType="numberPassword"
         android:textAlignment="center" />
 
     <Button
@@ -42,24 +42,9 @@
         android:layout_below="@+id/editTextNumberTwo"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="151dp"
-        android:text="Random" />
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="152dp"
+        android:text="Log in" />
 
-    <TextView
-        android:id="@+id/textViewNumber"
-        android:layout_width="100dp"
-        android:layout_height="34dp"
-        android:layout_below="@+id/buttonRandom"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="51dp"
-        android:layout_marginEnd="153dp"
-        android:text="0"
-        android:textAlignment="center"
-        android:textColor="#9C27B0"
-        android:textSize="24sp"
-        android:textStyle="bold" />
 </RelativeLayout>

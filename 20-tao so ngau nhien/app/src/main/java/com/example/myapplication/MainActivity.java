@@ -14,7 +14,7 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
 
-    TextView txtNumber;
+
     Button btnRandom;
 
     EditText edtNumber1,edtNumber2;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(chuoi1.isEmpty() || chuoi2.isEmpty()){
 
-                    Toast.makeText(MainActivity.this, " Please enter a number", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, " Please enter your valid email", Toast.LENGTH_LONG).show();
                 } else{
 
                     // Ep tu chuoi ve dang so :
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                     //   txtNumber.setText(number + ""); // goi chuoi rong
 
                     // khong muon goi chuoi rong: ep 1 tu so ve kieu chuoi :
-                    txtNumber.setText(String.valueOf(number));
+
 
                 }
             }
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void AnhXa(){
-        txtNumber = (TextView) findViewById(R.id.textViewNumber);
+
         btnRandom = (Button) findViewById(R.id.buttonRandom);
 
         edtNumber1 = (EditText) findViewById(R.id.editTextNumberOne);
